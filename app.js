@@ -8,12 +8,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/rahulg', (req, res) => {
-  console.log("rahulg called....");
-  res.send("COming.....");
+  console.log("/rahulg is called....");
+  res.send("OK.I m listening.")
 });
 
 app.listen(3000, () => {
-  console.log("starting Exress Application at port: 3000......")
-  //process.env.NODE_ENV = "development"
+  console.log("Starting Application at Port: 3000......")
   console.log("env::", process.env.NODE_ENV);
 })
