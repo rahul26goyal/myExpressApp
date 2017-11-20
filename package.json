@@ -1,0 +1,23 @@
+{
+  "name": "myexpressapp",
+  "version": "1.0.0",
+  "description": "Express App 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "startdev": "NODE_ENV=development nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "rahul26goyal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
